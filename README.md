@@ -1,6 +1,6 @@
 # *This is a Website*  
 if you weren't aware
-![A heart](images/Bunny.PNG)
+![A heart](images/Bunny.PNG "an illustration of a sacred heart")
 <a href="SECOND-PAGE.html" style="
   display: inline-block;
   padding: 12px 24px;
