@@ -24,12 +24,14 @@
     </header>
     <div id="container">
       <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
-      <div id="main" role="main">
-        <a href="SECOND-PAGE.md" class="download-button tar"><span>Second Page</span></a>
-        <article class="markdown-body">
-          {{ content }}
-        </article>
-      </div>
+     <div id="main" role="main">
+  <div style="margin-bottom: 20px;">
+    <a href="SECOND-PAGE.html" class="download-button tar"><span>Second Page</span></a>
+  </div>
+  <article class="markdown-body">
+    {{ content }}
+  </article>
+</div>
     </div>
     <footer>
       <div class="owner">
