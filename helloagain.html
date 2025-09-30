@@ -1,47 +1,33 @@
----
-layout: default
-title: Second Page
----
-
-# Second Page Content
-
-Your content here...
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
-{% seo %}
-  {% include head-custom.html %}
+  <title>Second Page</title>
 </head>
 <body>
   <div class="wrapper">
     <header>
-      <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="title">Maya's Homepage</h1>
     </header>
     <div id="container">
-      <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
+      <p class="tagline">Your tagline here</p>
       <div id="main" role="main">
         <div style="margin-bottom: 20px;">
           <a href="index.html" style="display: inline-block; padding: 12px 24px; background-color: #405989; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 16px; transition: background-color 0.3s; border: 2px solid #121f38;">← Go to First Page</a>
         </div>
         <article class="markdown-body">
-          {{ content }}
+          <h1>Second Page Content</h1>
+          <p>Your content here...</p>
         </article>
       </div>
     </div>
     <footer>
       <div class="owner">
-      {% if site.github.is_project_page %}
-      <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a> <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> maintains <a href="{{ site.github.repository_url }}">{{ site.title | default: site.github.repository_name }}</a></p>
-      {% endif %}
-       {% if site.github.is_user_page %}
-      <p><a href="{{ site.github.owner_url }}" class="avatar"><img src="{{ site.github.owner_gravatar_url }}" width="48" height="48"></a>View <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> on <a href="https://www.github.com">GitHub</a></p>
-      {% endif %}
+        <p>Your footer content here</p>
       </div>
       <div class="creds">
         <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
@@ -50,11 +36,6 @@ Your content here...
   </div>
   <div class="current-section">
     <a href="#top">Scroll to top</a>
-    {% if site.show_downloads %}
-    <a href="{{ site.github.tar_url }}" class="tar">tar</a>
-    <a href="{{ site.github.zip_url }}" class="zip">zip</a>
-    <a href="{{ site.github.repository_url }}" class="code">source code</a>
-    {% endif %}
     <p class="name"></p>
   </div>
 </body>
