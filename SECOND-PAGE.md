@@ -1,4 +1,4 @@
 layout: page
 title: ":)"
 permalink: /helloagain
-![Alt text](image_path_or_URL "Optional title text")
+![A container of jewelry](/images/_DSC0029.JPG)
