@@ -6,5 +6,10 @@
 
 /* Apply SUSE Mono to everything */
 * {
-  font-family: "SUSE Mono", monospace !important;
+  font-family: "SUSE Mono", monospace;
+}
+html { 
+  margin: 1;
+  padding: 1;
+  border: 1 px dot-dash;
 }
